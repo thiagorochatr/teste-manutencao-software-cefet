@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class GeometriaException {
+public class GeometriaException extends RuntimeException {
+    public GeometriaException(String mensagem) {
+        super(mensagem);
+    }
 }
